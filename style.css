@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 300px auto;
+}
+
+h1,h4{
+  color: rgb(255, 255, 255);
+  margin bottom: 1rem;
+  
+}
+
+.box {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+.box:hover {
+  background: rgba(0, 0, 0, 0.702);
+}
+
+.img {
+  background-image: url(./images/image.png);
+  background-size: contain;
+  width: 30rem;
+  height: 30rem;
+}
+
+.text {
+  position: absolute;
+  font-size: 1.2rem;
+  width: 25rem; 
+}
+
+
+.effekt {
+  position: relative;
+  transition: 1s;
+}
+
+.effekt:hover {
+  opacity: 0.3;
+  transform: rotate(25deg) scale(1.3);
+}
+
+
+
+
+#############################
+/* }
+ .box{
+    width: 33rem;
+    height: 33rem;
+    margin: 10rem auto;
+    position: relative;
+    overflow: hidden;
+ }
+
+ .box img{
+  width: 25rem;
+  position: absolute;
+  left: 3.2rem;
+  transition: 
+    rotate 0.5s ease-in,
+    scale 0.5s ease-in;
+
+ }
+
+ .box2{
+  width: 33rem;
+  height: 33rem;
+  background-color: black;
+  position: relative;  
+  opacity: 0;
+  transition: 
+    opacity 1s linear;
+ }
+
+ h2{
+  color: rgb(183, 22, 22);
+ }
+
+ .box h2,
+ .box h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  transition: opacity 0.5s ease-in;
+
+ }
+  
+ .box h2{
+  text-transform: uppercase;
+  top: 12.5rem;
+  left: 6.25rem;
+
+ }
+
+ .box h4{
+text-transform: capitalize;
+top: 17.5rem;
+left: 9.3rem;
+
+ }
+
+ .box:hover .box2{
+  opacity: 1s;
+ }
+
+ .box:hover h2,
+ .box:hover h4{
+opacity: 1.5s;
+ }
+
+
+ .box:hover img{
+rotate: 30deg;
+scale: 1.3;
+ } */
+
+#####################################
+/* .box {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 1;
+  overflow: hidden;
+  border: 2px solid red;
+  transition: transform 0.5s;
+}
+
+.box:hover {
+  transform: scale(1.2) rotate(15deg);
+  width: 300px;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 1;
+  border: 2px solid red;
+}
+
+div.box img {
+  width: 300px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.box2 {
+  background-color: rgba(109, 109, 109 0.63);
+  display: flex;
+  opacity: 0%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  transition: 0.5s;
+}
+
+.box:hover .box2 {
+  opacity: 100%;
+  margin-top: 50% auto;
+  margin-left: 95px;
+} */
+
+############################################
+/* .box{
+    box-sizing: border-box;
+    margin: auto 50%;
+    display: grid;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+
+.transition {
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+    grid-column: 2;
+    border: 2px solid red;
+   			
+}
+ROTATE
+.rotate {
+  -moz-transform: scale(1) rotate(0deg);
+  -ms-transform: scale(1) rotate(0deg);
+  -o-transform: scale(1) rotate(0deg);
+  -webkit-transform: scale(1) rotate(0deg);
+  transform: scale(1) rotate(0deg);
+  border: 2px solid red;
+}
+.rotate:hover {
+  -moz-transform: scale(1.2) rotate(15deg);
+  -ms-transform: scale(1.2) rotate(15deg);
+  -o-transform: scale(1.2) rotate(15deg);
+  -webkit-transform: scale(1.2) rotate(15deg);
+  transform: scale(1.2) rotate(15deg);
+  border: 2px solid red;
+} 
+
+div.box img {
+  width: 300px;
+  height: auto;
+  
+} 
+.box2 {
+  background-color: rgba(109, 109, 109 0.63);
+  display: flex;
+  opacity: 0%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 300px;
+  height: 300px;
+  grid-column: 2;
+  grid-row: 1;
+  
+  position: absolute;
+} 
+
+.box2:hover {
+  width: 300px;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.445);
+  margin-top: 50% auto;
+  z-index: 10;
+  margin-left: 95px;
+  grid-column: 2;
+  grid-row: 1;
+  border: 2px solid red;
+  opacity: 100%;
+}
